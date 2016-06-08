@@ -1,0 +1,6 @@
+[package]
+name = "music"
+version = "0.1.0"
+authors = ["Quinn Beightol <qeb2@cornell.edu>"]
+
+[dependencies]
