@@ -4,4 +4,5 @@ version = "0.1.0"
 authors = ["Quinn Beightol <qeb2@cornell.edu>"]
 
 [dependencies]
+byteorder = "0.5.3"
 num = "0.1"
