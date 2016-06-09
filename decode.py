@@ -12,7 +12,6 @@ def script():
     with open(target, 'r') as target_file: 
         for byte in target_file.read():
             print(str(ord(byte)) + "\t(" + byte + ")");
-        # print(target_file.read())
 
 if __name__ == '__main__':
     script()
