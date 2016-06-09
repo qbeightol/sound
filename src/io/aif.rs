@@ -71,6 +71,11 @@ impl Aif {
         BigEndian::write_u32(&mut byte_buffer, 0);
         file.write_all(&byte_buffer);
 
+        for sample in self.audio.iter() {
+            BigEndian::write_u32(&mut byte_buffer, *sample);
+            file.write_all(&byte_buffer);
+        }
+
 
 
     }
