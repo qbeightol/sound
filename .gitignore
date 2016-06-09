@@ -1,3 +1,9 @@
+# rust files
 target
 Cargo.lock
+
+# OS X files 
 .Ds_Store
+
+# Audio files 
+*.aif
