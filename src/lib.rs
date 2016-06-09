@@ -1,8 +1,9 @@
 
+extern crate byteorder;
 extern crate num;
 
 mod io {
-
+    mod aif;
 }
 
 mod sound {
@@ -13,7 +14,7 @@ mod sound {
 
     }
 }
-// 
+//
 // mod util {
 //     mod complex;
 // }
