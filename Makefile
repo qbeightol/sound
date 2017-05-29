@@ -1,0 +1,4 @@
+
+compile:
+	clear
+	cargo build
